@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <hr>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <select id="from-currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="PKR">PKR</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <select id="to-currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="PKR">PKR</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <button id="convert_btn">Convert</button>
+        <div class="result-box">
+            <p id="result"></p>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
